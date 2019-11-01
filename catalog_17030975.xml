@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- XML Declaration where its version, encoding and its dependency is declared -->
+<!--Anuska Neupane 17030975-->
+<!DOCTYPE Company SYSTEM "catalog_17030975.dtd">
+<?xml-stylesheet type="text/css" href="catalog_17030975.css"?>
+<Company Name="TechnoGyang">
+  <Header>
+    <Company_details>
+<!--For Company Details-->
+      <Name>TechnoGyang</Name>
+      <Slogan>"Experience the Unexpected"</Slogan>
+      <Address>Koteswore, Kathmandu</Address>
+      <Contact_info>
+	  <!--Using an attritube 'type' deciding the type of Contact information-->
+        <Contact type="email">technogyan2018.gmailcom</Contact>
+        <Contact type="voice_call">166784454</Contact>
+        <Contact type="fax">166187602</Contact>
+        <Contact type="official">454550</Contact>
+      </Contact_info>
+      <Web_Address>www.technogyan.com</Web_Address>
+      <Logo/>
+    </Company_details>
+  </Header>
+  
+ <!--//For Chief Executive Officer-->
+  <Chief_Executive_Officer id="Ceo111">
+    <First_Name>Rajendra</First_Name>
+    <Last_Name>Barma</Last_Name>
+    <Permanent_Address>Baluwatar, Kathmandu</Permanent_Address>
+    <Contact_Details>
+      <Ceo_Contact type="email">rajendra223@gmail.com</Ceo_Contact>
+      <Ceo_Contact type="phone">984165343</Ceo_Contact>
+    </Contact_Details>
+	
+<!--// As employees work under CEO-->
+    <Employees working_under="CEO">
+	<!--//For project maanger-->
+      <Project_Manager>
+	<!-- Setting an attribute id for project-manager-->
+        <Manager_Id id="ManID122"/>
+        <Manager_Name>Lana Rey</Manager_Name>
+        <Manager_Address>Boston, USA</Manager_Address>
+	<!--Using an attritube 'type' deciding the type of Contact information-->
+        <Manger_Contact>
+          <Details type="official">126575656</Details>
+          <Details type="email">lanarey23@gmail.com</Details>
+        </Manger_Contact>
+        <Manager_Salary>75000</Manager_Salary>
+        <Incharge_Of>Web Department</Incharge_Of>
+		
+	<!-- Setting an attribute id for project-manager-->
+        <Manager_Id id="ManID123"/>
+        <Manager_Name>Sherlock Holmes</Manager_Name>
+        <Manager_Address>Baker Street, London</Manager_Address>
+	<!--Using an attritube 'type' deciding the type of Contact information-->
+        <Manger_Contact>
+          <Details type="official">865756655</Details>
+          <Details type="email">sherlock23hmo@gmail.com</Details>
+        </Manger_Contact>
+        <Manager_Salary>9876654</Manager_Salary>
+        <Incharge_Of>Mobile Department</Incharge_Of>
+      </Project_Manager>
+	  
+<!--//For Team leader-->	  
+      <Team_Leader>
+	<!-- Setting an attribute id for team-leader-->
+        <Leader_Id id="Led133"/>
+        <Leader_Name>Eddie Vedder</Leader_Name>
+        <Leader_Address>Kaushaltar, Bhaktapur</Leader_Address>
+	<!--Using an attritube 'type' deciding the type of Contact information-->
+        <Leader_Contact>
+          <Info type="phone">983435433</Info>
+          <Info type="email">eddier@gmail.com</Info>
+        </Leader_Contact>
+        <Leading_Project>Eye Of Danger</Leading_Project>
+        <Leader_Salary>454545</Leader_Salary>
+		
+	<!-- Setting an attribute id for team-leader-->
+        <Leader_Id id="Led134"/>
+        <Leader_Name>Pearl Jam</Leader_Name>
+        <Leader_Address>Baluwatar, Kathmandu</Leader_Address>
+	<!--Using an attritube 'type' deciding the type of Contact information-->
+        <Leader_Contact>
+          <Info type="phone">987556344</Info>
+          <Info type="email">pearl12jam@gmail.com</Info>
+        </Leader_Contact>
+        <Leading_Project>Here It Goes</Leading_Project>
+        <Leader_Salary>43673536</Leader_Salary>
+		
+	<!-- Setting an attribute id for team-leader-->
+        <Leader_Id id="Led135"/>
+        <Leader_Name>Adam Stervia</Leader_Name>
+        <Leader_Address>Boston, USA</Leader_Address>
+	<!--Using an attritube 'type' deciding the type of Contact information-->
+        <Leader_Contact>
+          <Info type="phone">1564644446</Info>
+          <Info type="email">adam12@gmail.com</Info>
+        </Leader_Contact>
+        <Leading_Project>Visualize</Leading_Project>
+        <Leader_Salary>50000</Leader_Salary>
+		
+	<!-- Setting an attribute id for team-leader-->
+        <Leader_Id id="Led136"/>
+        <Leader_Name>Bob Marley</Leader_Name>
+        <Leader_Address>Kamalpokhari, Kathmandu</Leader_Address>
+	<!--Using an attritube 'type' deciding the type of Contact information-->
+        <Leader_Contact>
+          <Info type="phone">985643344</Info>
+          <Info type="email">bobty@gmail.com</Info>
+        </Leader_Contact>
+        <Leading_Project>Make It Work</Leading_Project>
+        <Leader_Salary>60000</Leader_Salary>
+		
+	<!-- Setting an attribute id for team-leader-->
+        <Leader_Id id="Led137"/>
+        <Leader_Name>Sam Smith</Leader_Name>
+        <Leader_Address>Fortunate, Disney</Leader_Address>
+	<!--Using an attritube 'type' deciding the type of Contact information-->
+        <Leader_Contact>
+          <Info type="phone">675714334</Info>
+          <Info type="email">sam143@gmail.com</Info>
+        </Leader_Contact>
+        <Leading_Project>DreamyIsland</Leading_Project>
+        <Leader_Salary>908686</Leader_Salary>
+      </Team_Leader>
+	  
+<!--//For Department Worker--> 
+      <Department_Worker>
+	<!-- Setting an attribute id for department-worker-->
+        <Worker_Id id="Emp145"/>
+        <Worker_Name>Anup Jain</Worker_Name>
+        <Worker_Address>Sydney, Australia</Worker_Address>
+        <Worker_Phone>67345224</Worker_Phone>
+        <Worker_Designation>Implementer</Worker_Designation>
+        <Worker_Salary>50000</Worker_Salary>
+		
+	<!-- Setting an attribute id for department-worker-->
+        <Worker_Id id="Emp146"/>
+        <Worker_Name>Anup Jain</Worker_Name>
+        <Worker_Address>Delhi, India</Worker_Address>
+        <Worker_Phone>5642222</Worker_Phone>
+        <Worker_Designation>Coder</Worker_Designation>
+        <Worker_Salary>60000</Worker_Salary>
+		
+	<!-- Setting an attribute id for department-worker-->	
+        <Worker_Id id="Emp147"/>
+        <Worker_Name>Dave Thomas</Worker_Name>
+        <Worker_Address>Orleans, USA</Worker_Address>
+        <Worker_Phone>156475555</Worker_Phone>
+        <Worker_Designation>Implementer</Worker_Designation>
+        <Worker_Salary>50000</Worker_Salary>
+		
+	<!-- Setting an attribute id for department-worker-->	
+        <Worker_Id id="Emp148"/>
+        <Worker_Name>Milan Thapa</Worker_Name>
+        <Worker_Address>Baneswhore, Kathmandu</Worker_Address>
+        <Worker_Phone>98413454</Worker_Phone>
+        <Worker_Designation>Coder</Worker_Designation>
+        <Worker_Salary>60000</Worker_Salary>
+	
+	<!-- Setting an attribute id for department-worker-->	
+        <Worker_Id id="Emp149"/>
+        <Worker_Name>Meed Nezz</Worker_Name>
+        <Worker_Address>Paris, France</Worker_Address>
+        <Worker_Phone>12452353</Worker_Phone>
+        <Worker_Designation>Tester</Worker_Designation>
+        <Worker_Salary>90000</Worker_Salary>
+      </Department_Worker>
+    </Employees>
+  </Chief_Executive_Officer>
+  
+ <!--//For Department--> 
+  <Department>
+    <Department_Id id="Dep001"/>
+    <DepartmentName>Research and Development</DepartmentName>
+    <AssignedEmployee>Assigned Employee:5</AssignedEmployee>
+    <Leadedby>Team Leader</Leadedby>
+<!-- Here the value for runing-porject is optional,a deparment may or maynt have any project running under it -->
+    <Runningproject project="1"/>
+	
+    <Department_Id id="Dep002"/>
+    <DepartmentName>Marketing</DepartmentName>
+    <AssignedEmployee>Assigned Employee:5</AssignedEmployee>
+    <Leadedby>Team Leader</Leadedby>
+<!--Marketing deparment doesnt have any project running under-->
+    <Runningproject/>
+	
+    <Department_Id id="Dep003"/>
+    <DepartmentName>Human Resource Department</DepartmentName>
+    <AssignedEmployee>Assigned Employee:6</AssignedEmployee>
+    <Leadedby>Team Leader</Leadedby>
+    <Runningproject project="1"/>
+	
+    <Department_Id id="Dep004"/>
+    <DepartmentName>Web Department</DepartmentName>
+    <AssignedEmployee>Assigned Employee:4</AssignedEmployee>
+    <Leadedby>Project Manager, Team Leader</Leadedby>
+    <Runningproject project="2"/>
+	
+    <Department_Id id="Dep005"/>
+    <DepartmentName>Mobile Department</DepartmentName>
+    <AssignedEmployee>Assigned Employee:5</AssignedEmployee>
+    <Leadedby>Project Manager, Team Leader</Leadedby>
+    <Runningproject project="1"/>
+  </Department>
+  
+ <!--//For Running Projects--> 
+  <Running_Projects>
+  <!-- Setting an attribute id for running-project-->
+    <Projects_Id id="RP100"/>
+    <Project_Name>Make It Work</Project_Name>
+    <Deparments>Human Resource Department</Deparments>
+    <Managed_By>Managed-By: Workers</Managed_By>
+    <Supervised_By>Supervised-By: eam Leader</Supervised_By>
+    <Worker_No>Worker No:5</Worker_No>
+	
+  <!-- Setting an attribute id for running-project-->
+    <Projects_Id id="RP101"/>
+    <Project_Name>Here It Goes</Project_Name>
+    <Deparments>Web Department</Deparments>
+    <Managed_By>Managed-By: Project Manager</Managed_By>
+    <Supervised_By>Supervised-By: Team Leader</Supervised_By>
+    <Worker_No>Worker No:6</Worker_No>
+	
+  <!-- Setting an attribute id for running-project-->
+    <Projects_Id id="RP103"/>
+    <Project_Name>Visualize</Project_Name>
+    <Deparments>Mobile Department</Deparments>
+    <Managed_By>Managed-By: Project Manager</Managed_By>
+    <Supervised_By>Supervised-By: Team Leader</Supervised_By>
+    <Worker_No>Worker No:7</Worker_No>
+  <!-- Setting an attribute id for running-project-->	
+    <Projects_Id id="RP104"/>
+    <Project_Name>Dreamy Dream</Project_Name>
+    <Deparments>Web Department</Deparments>
+    <Managed_By>Managed-By: Project Manager</Managed_By>
+    <Supervised_By>Supervised-By: Team Leader</Supervised_By>
+    <Worker_No>Worker No:5</Worker_No>
+
+  <!-- Setting an attribute id for running-project-->
+    <Projects_Id id="RP105"/>
+    <Project_Name>Varchar</Project_Name>
+    <Deparments>Research and Development</Deparments>
+    <Managed_By>Managed-By: Workers</Managed_By>
+    <Supervised_By>Supervised-By: Team Leader</Supervised_By>
+    <Worker_No>Worker No:4</Worker_No>
+  </Running_Projects>
+</Company>

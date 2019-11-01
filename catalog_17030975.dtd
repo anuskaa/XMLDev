@@ -1,0 +1,86 @@
+<!--
+	Author:Anuska Neupane
+-->
+
+<!ELEMENT Company (Header,Chief_Executive_Officer,Department+,Running_Projects)>
+
+<!ELEMENT Header (Company_details)>
+<!ELEMENT Company_details (Name,Slogan,Address,Contact_info,Web_Address,Logo)>
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT Slogan (#PCDATA)>
+<!ELEMENT Address (#PCDATA)>
+<!ELEMENT Contact_info (Contact)+>
+<!ELEMENT Contact (#PCDATA)>
+<!ELEMENT Web_Address (#PCDATA)>
+<!ELEMENT Logo (#PCDATA)>
+
+
+<!ELEMENT Chief_Executive_Officer (First_Name,Last_Name,Permanent_Address,Contact_Details,Employees)>
+<!ELEMENT First_Name (#PCDATA)>
+<!ELEMENT Last_Name (#PCDATA)>
+<!ELEMENT Permanent_Address (#PCDATA)>
+<!ELEMENT Contact_Details (Ceo_Contact)+>
+<!ELEMENT Ceo_Contact (#PCDATA)>
+
+<!ELEMENT Employees (Project_Manager,Team_Leader,Department_Worker)>
+
+<!ELEMENT Project_Manager (Manager_Id,Manager_Name,Manager_Address,Manger_Contact,Manager_Salary,Incharge_Of)+>
+<!ELEMENT Manager_Name (#PCDATA)>
+<!ELEMENT Manager_Id (#PCDATA)>
+<!ELEMENT Manager_Address (#PCDATA)>
+<!ELEMENT Manger_Contact (Details)+>
+<!ELEMENT Details (#PCDATA)>
+<!ELEMENT Manager_Salary (#PCDATA)>
+<!ELEMENT Incharge_Of (#PCDATA)>
+
+<!ELEMENT Team_Leader (Leader_Id,Leader_Name,Leader_Address,Leader_Contact,Leading_Project,Leader_Salary)+>
+<!ELEMENT Leader_Id (#PCDATA)>
+<!ELEMENT Leader_Name (#PCDATA)>
+<!ELEMENT Leader_Address (#PCDATA)>
+<!ELEMENT Leader_Contact (Info)+>
+<!ELEMENT Info (#PCDATA)>
+<!ELEMENT Leader_Email (#PCDATA)>
+<!ELEMENT Leading_Project (#PCDATA)>
+<!ELEMENT Leader_Salary (#PCDATA)>
+
+<!ELEMENT Department_Worker (Worker_Id,Worker_Name,Worker_Address,Worker_Phone,Worker_Designation,Worker_Salary)+>
+<!ELEMENT Worker_Id (#PCDATA)>
+<!ELEMENT Worker_Name (#PCDATA)>
+<!ELEMENT Worker_Address (#PCDATA)>
+<!ELEMENT Worker_Phone (#PCDATA)>
+<!ELEMENT Worker_Designation (#PCDATA)>
+<!ELEMENT Worker_Salary (#PCDATA)>
+
+<!ELEMENT Department (Department_Id,DepartmentName,AssignedEmployee,Leadedby,Runningproject?)+>
+<!ELEMENT Department_Id (#PCDATA)>
+<!ELEMENT DepartmentName (#PCDATA)>
+<!ELEMENT AssignedEmployee (#PCDATA)>
+<!ELEMENT Leadedby (#PCDATA)>
+<!ELEMENT Runningproject (#PCDATA)>
+
+
+<!ELEMENT Running_Projects (Projects_Id,Project_Name,Deparments,Managed_By,Supervised_By,Worker_No)+>
+<!ELEMENT Projects_Id (#PCDATA)>
+<!ELEMENT Project_Name (#PCDATA)>
+<!ELEMENT Deparments (#PCDATA)>
+<!ELEMENT Managed_By (#PCDATA)>
+<!ELEMENT Supervised_By (#PCDATA)>
+<!ELEMENT Worker_No (#PCDATA)>
+
+<!ATTLIST Company Name CDATA #REQUIRED>
+<!ATTLIST Contact type (email|voice_call|fax|official) #REQUIRED>
+<!ATTLIST Chief_Executive_Officer id ID #REQUIRED>
+<!ATTLIST Ceo_Contact type (email|phone) #REQUIRED>
+<!ATTLIST Employees working_under CDATA #REQUIRED>
+<!ATTLIST Manager_Id id ID #REQUIRED>
+<!ATTLIST Details type (official|email) #REQUIRED>
+<!ATTLIST Runningproject project CDATA  #IMPLIED>
+<!ATTLIST Leader_Id id ID #REQUIRED>
+<!ATTLIST Info type (phone|email) #REQUIRED>
+<!ATTLIST Department_Id id ID #REQUIRED>
+<!ATTLIST Worker_Id id ID #REQUIRED>
+<!ATTLIST Projects_Id id ID #REQUIRED>
+
+
+
+ 

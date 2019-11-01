@@ -1,0 +1,704 @@
+Company{
+    background: rgb(121,121,121);
+    position: relative;
+	width:1250px;
+
+}
+
+Header{
+	background:url(images/image.jpg);
+	position:absolute; 
+	left:50px; 
+	top:0px;
+	width:1150px; 
+	height:550px;
+	border:6px solid silver;
+
+}
+
+Logo{
+	display: block; 
+	position:fixed; 
+	background-image: url(images/logo.png); 
+	background-size:contain; 
+	background-repeat:no-repeat; 
+	height:100px; 
+	width:80px; 
+	top:25px;
+	
+}
+ Name{
+	position:absolute; 
+	font-family:"Times New Roman", Times, serif;
+	 left:300px; 
+	 top:200px; 
+	 width:603px;
+	 height:75px;
+	 border-bottom:3px solid lavender;
+	 border-top:3px solid lavender;
+	 font-size:50px;
+	 text-align:center;
+	 text-shadow: 0px 3px #b2a98f,
+				  0px 14px 10px rgba(0,0,0,0.15),
+				  0px 24px 2px rgba(0,0,0,0.1),
+				  0px 34px 30px rgba(0,0,0,0.1);
+	color:white;	
+ }
+ 
+Slogan{
+	 position:absolute; 
+	 left:700px; 
+	 top:300px; 
+	 border-bottom:1px solid lavender;
+	 font-family:"Courier New", Courier, monospace;
+	 font-style:italic;
+	 color:rgb(255,250,250);
+	 
+ }
+ 
+ Address{
+	position:absolute;
+	width:415px;
+	display: block;
+	margin-bottom:10px;
+	background-color:white;
+	color:black;
+}
+
+Contact_info{	
+position:absolute;
+	top:0px;
+  width:415px;
+  display: block;
+  margin-bottom:10px;
+  background-color:white;
+  color:black;
+  left:415px;
+	
+}
+
+Contact_info[type="voice_call"]{
+	left:500px;
+}
+
+
+Web_Address{	
+	position:absolute;
+	top:0px;
+	width:320px;
+	display: block;
+	margin-bottom:10px;
+	background-color:white;
+	color:black;
+	left:830px;
+	text-align:right;
+}
+  
+Chief_Executive_Officer{
+	position:absolute; 
+	left:50px; 
+	top:550px; 
+	border:6px solid silver;
+	width:1150px;
+	height:300px;        
+	background-color:lightslategrey;
+}
+
+#Ceo111{
+	background-image: url(images/ceo1.png); 
+    background-repeat: no-repeat; 
+	background-size: 430px;
+	background-position: 150px;
+}
+
+First_Name{
+	position:relative;
+	font-family:Verdana;
+	left:60px;
+	top:120px;
+	text-align:left;
+	font-size:30px;
+	width:415px;
+	display: block;
+	margin-bottom:30px;
+	background-color:black;
+	color:white;
+	margin-left:350px;
+	opacity:0.7;
+}
+
+Last_Name{
+	position:absolute;
+	font-family:Verdana;
+	top:120px;
+	font-size:30px;
+	left:250px;
+	margin-left:300px;
+	color:white;
+	
+}
+
+Permanent_Address{
+	position:absolute;
+	top:160px;
+	left:60px;
+	width:415px;
+	display: block;
+	margin-bottom:10px;
+	background-color:grey;
+	color:white;
+	text-align:center;
+	margin-left:350px;
+	opacity:0.7;
+}
+
+Ceo_Contact[type="email"]{
+	position:absolute;
+	top:180px;
+	left:60px;
+	width:415px;
+	display: block;
+	margin-bottom:10px;
+	background-color:grey;
+	color:white;
+	text-align:center;
+	margin-left:350px;
+	opacity:0.7;
+
+}
+
+Ceo_Contact[type="phone"]{
+	position:absolute;
+	top:200px;
+	left:60px;
+	width:415px;
+	display: block;
+	margin-bottom:10px;
+	background-color:grey;
+	color:white;	
+	text-align:center;
+	margin-left:350px;
+	opacity:0.7;
+}
+
+Project_Manager{
+	position:absolute; 
+	left:0px; 
+	top:310px; 
+	border:6px solid silver;
+	width:1150px;
+	height:300px;
+	background-color:white;
+	background-image:url(images/pro.jpg);
+	background-position:top right;
+	background-size:850px;
+    background-repeat: no-repeat;
+
+}
+
+Manager_Id[id="ManID122"]{
+	margin:60px;
+
+	
+}
+
+Manager_Id[id="ManID123"]{
+	margin:160px;
+}
+
+Manager_Name{
+		position:absolute;
+		font-family:Verdana, Geneva, sans-serif;
+		top:76px;
+		font-size:27px;
+		margin-bottom:10px;
+		background-color:black;
+		width:300px;
+		color:white;	
+		text-align:center;
+		opacity:0.7;
+	
+}
+Manager_Address{
+		position:absolute;
+		font-family:Arial;
+		top:120px;
+		width:300px;
+		margin-bottom:10px;
+		background-color:grey;
+		color:white;	
+		text-align:center;
+		opacity:0.7;
+}
+
+Details[type="email"]{
+		top:140px;
+		margin-bottom:10px;
+		background-color:grey;
+		width:300px;
+		color:white;	
+		text-align:center;
+		opacity:0.7;
+}
+Details{
+		position:absolute;
+		font-family:Arial;
+		top:160px;
+		width:300px;
+		margin-bottom:10px;
+		background-color:grey;
+		color:white;	
+		text-align:center;
+		opacity:0.7;
+}
+
+Manager_Salary{
+		position:absolute;
+		font-family:Arial;
+		top:180px;
+		width:300px;
+		margin-bottom:10px;
+		background-color:grey;
+		color:white;	
+		text-align:center;
+		opacity:0.7;
+}
+
+Incharge_Of{
+		position:absolute;
+		font-family:Arial;
+		top:200px;
+		width:300px;
+		margin-bottom:10px;
+		background-color:grey;
+		color:white;	
+		text-align:center;
+		opacity:0.7;
+}
+Team_Leader{
+	position:absolute;
+	left:0px; 
+	top:600px; 
+	border:6px solid silver;
+	width:1150px;
+	height:300px;
+	background-color:lightslategrey;
+	background-image:url(images/team.png);
+	background-repeat:no-repeat;
+	background-position:top center;
+	background-size:150px;
+	
+}
+
+
+Leader_Name{
+	position:absolute;
+	font-family:Arial;
+	top:80px;
+	color:rgb(25,25,112);
+	border-bottom:1px solid black;
+	margin-bottom:10px;
+	background-color:black;
+	width:150px;
+	color:white;	
+	text-align:center;
+	opacity:0.7;
+	
+}
+
+Leader_Address{
+	position:absolute;
+	font-family:Arial;	
+	top:100px;
+	margin-bottom:10px;
+	background-color:black;
+	width:150px;
+	color:white;	
+	text-align:center;
+	opacity:0.5;
+	font-size:10px;
+}
+
+Info{
+	position:absolute;
+	font-family:Arial;
+	top:115px;
+	width:150px;
+	margin-bottom:10px;
+	background-color:black;
+	color:white;	
+	text-align:center;
+	opacity:0.5;
+}
+
+Info[type="email"]{
+	position:absolute;
+	font-family:Arial;
+	top:135px;
+	width:150px;
+	margin-bottom:10px;
+	background-color:black;
+	color:white;	
+	text-align:center;
+	opacity:0.5;
+}
+
+Leading_Project{
+	position:absolute;
+	font-family:Arial;	
+	top:155px;
+	width:150px;
+	margin-bottom:10px;
+	background-color:black;
+	color:white;	
+	text-align:center;
+	opacity:0.5;
+}
+
+Leader_Salary{
+	position:absolute;
+	font-family:Arial;
+	top:175px;
+	width:150px;
+	margin-bottom:10px;
+	background-color:black;
+	color:white;	
+	text-align:center;
+	opacity:0.5;
+}
+
+Leader_Id[id="Led133"]{
+	margin:50px;
+	
+}
+
+Leader_Id[id="Led134"]{
+	margin:100px;
+	
+}
+
+Leader_Id[id="Led135"]{
+	margin:100px;
+}
+
+Leader_Id[id="Led136"]{
+	margin:100px;
+}
+
+Leader_Id[id="Led137"]{
+	margin:100px;
+}
+
+
+ Department_Worker{
+	position:absolute; 
+	left:0px; 
+	top:910px; 
+	border:6px solid silver;
+	width:1150px;
+	height:300px;
+	background-color:white;
+	background-image:url(images/4.jpg);
+	background-repeat:no-repeat;
+	background-position:top left;
+	background-size:550px;
+ }
+ 
+Worker_Name{
+	position:absolute;
+	font-family:Arial;
+	top:80px;
+	color:rgb(25,25,112);
+	border-bottom:1px solid black;
+	margin-bottom:10px;
+	background-color:black;
+	width:150px;
+	color:white;	
+	text-align:center;
+	opacity:0.7;
+	
+}
+
+Worker_Address{
+	position:absolute;
+	font-family:Arial;
+	top:100px;
+	color:rgb(25,25,112);
+	border-bottom:1px solid black;
+	margin-bottom:10px;
+	background-color:black;
+	width:150px;
+	color:white;	
+	text-align:center;
+	opacity:0.7;
+	font-size:12px;
+	
+}
+
+Worker_Phone{
+	position:absolute;
+	font-family:Arial;
+	top:120px;
+	color:rgb(25,25,112);
+	border-bottom:1px solid black;
+	margin-bottom:10px;
+	background-color:black;
+	width:150px;
+	color:white;	
+	text-align:center;
+	opacity:0.7;
+	
+}
+Worker_Designation{
+	position:absolute;
+	font-family:Arial;
+	top:140px;
+	color:rgb(25,25,112);
+	border-bottom:1px solid black;
+	margin-bottom:10px;
+	background-color:black;
+	width:150px;
+	color:white;	
+	text-align:center;
+	opacity:0.7;
+	
+}
+
+Worker_Salary{
+	position:absolute;
+	font-family:Arial;
+	top:160px;
+	color:rgb(25,25,112);
+	border-bottom:1px solid black;
+	margin-bottom:10px;
+	background-color:black;
+	width:150px;
+	color:white;	
+	text-align:center;
+	opacity:0.7;
+	
+	
+}
+
+Worker_Id[id="Emp145"]{
+	margin:180px;
+	
+}
+
+Worker_Id[id="Emp146"]{
+	margin:80px;
+	
+}
+
+Worker_Id[id="Emp147"]{
+	margin:80px;
+}
+
+Worker_Id[id="Emp148"]{
+	margin:80px;
+}
+
+Worker_Id[id="Emp149"]{
+	margin:80px;
+}
+
+
+Department{
+	position:absolute; 
+	left:50px;
+	top:1785px; 
+	border:6px solid silver;
+	width:1150px;
+	height:300px;
+	background-color:slategrey;
+	background-image:url(images/5.jpg);
+	background-repeat:no-repeat;
+	background-position:top center;
+	background-size:1150px;
+	}
+
+DepartmentName{
+	position:absolute;
+	font-family:Arial;
+	top:100px;
+	color:rgb(25,25,112);
+	border-bottom:1px solid black;
+	margin-bottom:20px;
+	height:30px;
+	background-color:#F0FFFF;
+	width:215px;
+	color:black;	
+	text-align:center;
+	opacity:0.7;
+	border:3px solid #008080;
+}
+
+AssignedEmployee{
+	position:absolute;
+	font-family:Arial;
+	top:135px;
+	color:rgb(25,25,112);
+	border-bottom:1px solid black;
+	margin-bottom:10px;
+	background-color:whitesmoke;
+	width:215px;
+	height:30px;
+	color:black;	
+	text-align:center;
+	opacity:0.7;
+	border:3px solid rgba(175,238,238);
+}
+
+Leadedby{
+	position:absolute;
+	font-family:Arial;
+	top:170px;
+	color:rgb(25,25,112);
+	border-bottom:1px solid black;
+	margin-bottom:10px;
+	background-color:whitesmoke;
+	width:215px;
+	height:30px;
+	color:black;	
+	text-align:center;
+	opacity:0.7;
+	border:3px solid rgba(175,238,238);
+	
+}
+
+Department_Id[id="Dep001"]{
+	margin:10px;;
+}
+
+Department_Id[id="Dep002"]{
+	margin:110px;
+
+}
+
+Department_Id[id="Dep003"]{
+	margin:110px;
+}
+
+Department_Id[id="Dep004"]{
+	margin:110px;
+}
+
+Department_Id[id="Dep005"]{
+	margin:110px;
+}
+
+Running_Projects{
+	position:absolute;
+	left:50px; 
+	top:2100px;
+	border:6px solid silver;
+	width:1150px;
+	height:300px;
+	background-color:white;	
+	background-image:url(images/3.jpg);
+	background-repeat:no-repeat;
+	background-position:top right;
+	background-size:600px;
+}
+
+Project_Name{
+	position:absolute;
+	font-family:Arial;
+	top:100px;
+	color:rgb(25,25,112);
+	border-bottom:1px solid black;
+	margin-bottom:10px;
+	background-color:black;
+	width:150px;
+	color:white;	
+	text-align:center;
+	opacity:0.8;
+	font-size:18px;
+}
+
+Deparments{
+	position:absolute;
+	font-family:Arial;
+	top:122px;
+	color:rgb(25,25,112);
+	border-bottom:1px solid black;
+	margin-bottom:10px;
+	background-color:black;
+	width:150px;
+	color:white;	
+	text-align:center;
+	opacity:0.7;
+	font-size:12px;
+}
+
+Managed_By{
+	position:absolute;
+	font-family:Arial;
+	top:140px;
+	color:rgb(25,25,112);
+	border-bottom:1px solid black;
+	margin-bottom:10px;
+	background-color:black;
+	width:150px;
+	color:white;	
+	text-align:center;
+	opacity:0.7;
+	font-size:12px;
+}
+
+Supervised_By{
+	position:absolute;
+	font-family:Arial;
+	top:160px;
+	color:rgb(25,25,112);
+	border-bottom:1px solid black;
+	margin-bottom:10px;
+	background-color:black;
+	width:150px;
+	color:white;	
+	text-align:center;
+	opacity:0.7;
+	font-size:12px;
+	
+}
+Worker_No{
+	position:absolute;
+	font-family:Arial;
+	top:180px;
+	color:rgb(25,25,112);
+	border-bottom:1px solid black;
+	margin-bottom:10px;
+	background-color:black;
+	width:150px;
+	color:white;	
+	text-align:center;
+	opacity:0.7;
+	font-size:12px;
+}
+
+Projects_Id[id="RP100"]{
+	margin:10px;;
+}
+
+Projects_Id[id="RP101"]{
+	margin:80px;
+	
+}
+
+Projects_Id[id="RP103"]{
+	margin:80px;
+}
+
+Projects_Id[id="RP104"]{
+	margin:80px;
+}
+
+Projects_Id[id="RP105"]{
+	margin:80px;
+}
+
+
+
+ 
+
+  
